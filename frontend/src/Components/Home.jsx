@@ -1,9 +1,12 @@
 import React from 'react'
-import { Box, Heading } from '@chakra-ui/react'
+import { Box, Heading, Text } from '@chakra-ui/react'
+import InputText from './InputText.jsx'
 const Home = () => {
   return (
     <Box>
-        <Heading>Heading this side</Heading>
+        <Text>Heading this side</Text>
+
+        <InputText />
     </Box>
   )
 }
