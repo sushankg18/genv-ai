@@ -7,11 +7,11 @@ const InputText = () => {
     const [processing, setProcessing] = useState(false)
     return (
         <Flex w={'80%'}>
-            <InputGroup>
-                <Input />
-                <InputRightAddon>
+            <InputGroup alignItems={'center'}>
+                <Input borderColor={'#212121'} p={'1.5rem 1rem'} fontSize={'1.3rem'} bgColor={'#2F2F2F'} focusBorderColor='#2F2F2F' placeholder='ask anything to Genv ai' />
+                <InputRightAddon p={'1.4rem 1rem'}>
                     {
-                        processing ? <FaPauseCircle /> : <IoSend />
+                        processing ? <FaPauseCircle /> : <IoSend color='black' fontSize={'1.3rem'} />
                     }
                 </InputRightAddon>
             </InputGroup>

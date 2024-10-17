@@ -8,7 +8,6 @@ const App = () => {
   return (
     <ChakraProvider >
       <Router>
-        <Navbar />
         <Routes > 
           <Route path='/' element={<Home />} />
         </Routes>
